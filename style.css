@@ -4,7 +4,7 @@ body {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 
@@ -13,19 +13,42 @@ body {
 }
 
 header, 
-.page-content,
 footer {
     padding: 8px 160px;
 }
 
 
-header {
 
+header {
+    margin: 0;
     background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 100px;
+}
+
+.page-title {
+    flex-basis: auto;
+    display: flex;
+    background-color: #1F2937;
+}
+
+.page-title,
+.page-infos,
+.page-quote,
+.page-sign-up {
+    flex-grow:1;
+    padding: 8px 160px;
+}
+
+.page-quote {
+    
+}
+
+.page-sign-up {
+    
 }
 
 .logo {
@@ -57,4 +80,5 @@ a {
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
+
 }
