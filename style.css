@@ -43,12 +43,23 @@ header {
     padding: 8px 160px;
 }
 
+.page-title {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title-text, .title-image {
+    flex: 1;
+}
+
 .page-quote {
+    background-color: #e5e7eb;
     
 }
 
 .page-sign-up {
-    
+
 }
 
 .logo {
