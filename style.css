@@ -29,10 +29,19 @@ header {
     padding-bottom: 100px;
 }
 
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+
 .page-title {
     flex-basis: auto;
     display: flex;
     background-color: #1F2937;
+    justify-content: space-between;
 }
 
 .page-title,
@@ -43,14 +52,27 @@ header {
     padding: 8px 160px;
 }
 
-.page-title {
-    display: flex;
-    justify-content: space-between;
-
-}
-
 .title-text, .title-image {
     flex: 1;
+}
+
+.title-text {
+    padding-right: 32px;
+}
+
+h1, p {
+    margin:0;
+}
+
+h1 {
+    color:#f9faf8;
+    font-weight: bolder;
+    font-size: 48px; 
+}
+
+.sign-up-button {
+    padding: 8px 32px;
+    background-color: #3882F6;
 }
 
 .page-quote {
@@ -62,11 +84,7 @@ header {
 
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
-}
+
 
 footer {
     font-size: 18px;
