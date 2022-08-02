@@ -190,15 +190,18 @@ div.info-box img {
     margin-bottom: 120px;
     border-radius: 12px;
     font-size: 24px;
-    flex-wrap: wrap;
     padding: 24px;
+
 }
 
 div.call-to-action > div {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     gap:24px;
+    margin-left:24px;
+    margin-right: 24px;
+
 }
 
 .align-text-button div:nth-of-type(2) {
