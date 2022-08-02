@@ -11,9 +11,13 @@ body {
 }
 
 
-/** {
+ {
     border: 1px solid black;
-}*/
+}
+
+
+
+/*Section: Header*/
 
 header, 
 footer {
@@ -37,6 +41,23 @@ header {
     font-weight: bold;
 }
 
+ul {
+    gap: 16px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+
+}
+
+/*Section: Hero*/
 
 .page-title {
     flex-basis: 0;
@@ -62,6 +83,8 @@ header {
     padding-left: 160px;
     padding-right: 160px;
 }
+
+
 
 
 img.title-image {
@@ -92,11 +115,52 @@ p {
     color:#f9faf8;
 }
 
+/*Section: Information*/
+
+.page-infos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 120px;
+}
+
+h2.info-title {
+    text-align: center;
+    color:#1F2937;
+    font-size: 36px;
+}
+
+
+.info-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    justify-content: center;
+}
+
+div.info-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width:200px;
+}
+
+div.info-box img {
+    border: 8px solid #3882F6;
+    border-radius: 32px;
+    width:150px;
+    height: 150px;
+    margin-bottom: 16px;
+
+}
+
+/*Section: Quote*/
+
 .page-quote {
     background-color: #e5e7eb;
-
     color: #1f2937;
-
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -115,11 +179,13 @@ p {
     margin-top: 12px;
 }
 
+/*Section: Call to action*/
+
 .page-sign-up {
 
 }
 
-
+/*Section: Footer*/
 
 footer {
     font-size: 18px;
@@ -129,20 +195,4 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-}
-
-ul {
-    gap: 16px;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    gap: 16px;
-}
-
-a {
-    font-size: 18px;
-    color: #e5e7eb;
-    text-decoration: none;
-
 }
