@@ -47,9 +47,10 @@ header {
     flex-wrap: wrap;
 }
 
+
 .title-text {
     flex:1;
-    margin-bottom: 30px;
+    margin-bottom: 18px;
     margin-right: 42px;
 }
 
@@ -66,7 +67,7 @@ header {
 img.title-image {
     max-width: 400px;
     max-height: 100%;
-
+    flex:1;
 }
 
 h1, p {
@@ -93,15 +94,25 @@ p {
 
 .page-quote {
     background-color: #e5e7eb;
+
+    color: #1f2937;
+
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.quote-text {
     font-style: italic;
     font-weight: 100;
-    color: #1f2937;
-    font-size: 36px;;
+    font-size: 36px;
 }
 
 
 .quote-author {
-    align-self: flex-end;
+    text-align:end; 
+    font-weight: 800;
+    font-size: 24px;
+    margin-top: 12px;
 }
 
 .page-sign-up {
