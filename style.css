@@ -100,11 +100,12 @@ p {
     background-color: #e5e7eb;
     font-style: italic;
     font-weight: 100;
-    color: #1f2937 ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    color: #1f2937;
+}
+
+
+.quote-author {
+    align-self: flex-end;
 }
 
 .page-sign-up {
