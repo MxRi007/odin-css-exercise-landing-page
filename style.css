@@ -21,8 +21,7 @@ footer {
 }
 
 img {
-    max-height:400px;
-    margin-left: 36px;
+
 }
 
 header {
@@ -72,7 +71,7 @@ header {
 }
 
 .title-image {
-    
+
 }
 
 h1, p {
@@ -99,10 +98,12 @@ p {
 
 .page-quote {
     background-color: #e5e7eb;
-    font-size: 36px;
     font-style: italic;
+    font-weight: 100;
     color: #1f2937 ;
-    36px light italix
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
