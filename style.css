@@ -11,12 +11,6 @@ body {
 }
 
 
- {
-    border: 1px solid black;
-}
-
-
-
 /*Section: Header*/
 
 header, 
@@ -182,7 +176,45 @@ div.info-box img {
 /*Section: Call to action*/
 
 .page-sign-up {
+    color:#e5e7eb;
+}
 
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:200px;
+    width:auto;
+    background-color:#3882F6;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 12px;
+    font-size: 24px;
+    flex-wrap: wrap;
+    padding: 24px;
+}
+
+div.call-to-action > div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:24px;
+}
+
+.align-text-button div:nth-of-type(2) {
+    display: flex;
+    align-items: flex-end;
+}
+    
+
+.call-to-action button {
+    flex:0 0 auto;
+    border: 2px solid #e5e7eb;
+}
+
+.call-to-action h3 {
+    margin-bottom: 4px;
+    margin-top: 0;
 }
 
 /*Section: Footer*/
